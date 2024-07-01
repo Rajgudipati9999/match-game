@@ -1,0 +1,25 @@
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .button{
+    background-color: transparent;
+    outline: none;
+    color: #fff;
+    border-width: 0;
+    font-size: 15px;
+    padding-bottom: 5px;
+    font-weight: bold;
+  }
+  .active-tab {
+    border-width: 3px;
+    border-style: solid;
+    border-color: #fec653;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    color: #fec653;
+    box-sizing: border-box;
+  }
+  
